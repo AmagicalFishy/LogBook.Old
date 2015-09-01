@@ -1,0 +1,13 @@
+Index: logbook/daily_log/newposts.php
+===================================================================
+--- logbook/daily_log/newposts.php	(revision 5)
++++ logbook/daily_log/newposts.php	(working copy)
+@@ -72,7 +72,7 @@
+ 
+ <script>
+ var logname = "<?php echo $_GET["log"]; ?>";
+-var timestamp = "<?php echo $_POST["big_timestamp"]; ?>";
++var timestamp = <?php echo json_encode($big_timestamp); ?>;
+ window.location.replace("viewposts.php?log=" + logname + "&begdate=" + timestamp + "&endate=" + timestamp
+     + "&filters=Calendar");
+ </script>

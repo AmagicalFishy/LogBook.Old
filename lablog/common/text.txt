@@ -1,0 +1,78 @@
+acpid (pid  2152) is running...
+atd (pid  2328) is running...
+auditd (pid  2373) is running...
+automount (pid  2260) is running...
+avahi-daemon is stopped
+Usage: /etc/init.d/bluetooth {start|stop}
+certmonger is stopped
+Stopped
+cgred is stopped
+Frequency scaling enabled using ondemand governor
+crond (pid  2317) is running...
+cupsd is stopped
+dnsmasq is stopped
+Usage: /etc/init.d/firstboot {start|stop}
+gmond (pid 2446) is running...
+hald (pid  2163) is running...
+htcacheclean is stopped
+httpd (pid  23554) is running...
+Table: filter
+
+pluto is stopped
+Table: filter
+
+irqbalance (pid  2082) is running...
+Kdump is not operational
+ktune settings are not applied.
+qpidd is stopped
+matahari-qmf-hostd is stopped
+matahari-qmf-networkd is stopped
+matahari-qmf-rpcd is stopped
+matahari-qmf-serviced is stopped
+matahari-qmf-sysconfigd is stopped
+matahari-qmf-sysconfig-consoled is stopped
+Checking for mcelog
+mcelog (pid  2276) is running...
+mdmonitor is stopped
+messagebus (pid  2095) is running...
+mysqld (pid  23465) is running...
+netconsole module not loaded
+Configured devices:
+lo em1 em2 em3 em4
+Currently active devices:
+lo em1 em2 em3 em4
+NetworkManager (pid  2106) is running...
+rpc.svcgssd is stopped
+rpc.mountd is stopped
+nfsd is stopped
+rpc.rquotad is stopped
+rpc.statd dead but pid file exists
+ntpd (pid  2296) is running...
+oddjobd is stopped
+portreserve (pid  2020) is running...
+master dead but pid file exists
+Process accounting is disabled.
+user had insufficient privilege
+quota_nld is stopped
+rdisc is stopped
+restorecond (pid  13285) is running...
+rpcbind is stopped
+rpc.gssd is stopped
+rpc.idmapd is stopped
+rpc.svcgssd is stopped
+rsyslogd (pid  2027) is running...
+sandbox is stopped
+saslauthd is stopped
+smartd is stopped
+snmpd is stopped
+snmptrapd is stopped
+spice-vdagentd is stopped
+openssh-daemon (pid  2288) is running...
+sssd is stopped
+svnserve is stopped
+tuned is stopped
+wdaemon is stopped
+winbindd is stopped
+wpa_supplicant (pid  2186) is running...
+xinetd is stopped
+ypbind is stopped

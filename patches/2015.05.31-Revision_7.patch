@@ -1,0 +1,13 @@
+Index: logbook/daily_log/whichposts.php
+===================================================================
+--- logbook/daily_log/whichposts.php	(revision 6)
++++ logbook/daily_log/whichposts.php	(working copy)
+@@ -67,7 +67,7 @@
+         foreach ($filenames as $filename){
+             $fileloc = "uploads/" . $_GET["log"] ."/". $filename;
+             if (@exif_imagetype($fileloc) != False){
+-                echo "<a href = '" .$fileloc. "'> <img src='" .$fileloc. "' height='20%' width='20%'></a>";
++                echo "<a href = '" .$fileloc. "'> <img src='" .$fileloc. "' height='150' width='250'></a>";
+             }
+             elseif (@exif_imagetype($fileloc) == False){
+                 echo "<a href='" .$fileloc. "'>" .$filename. "</a> &nbsp";
